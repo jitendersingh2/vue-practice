@@ -1,0 +1,36 @@
+.header-text {
+    flex: 1;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 93.4%;
+    align-items: center;
+    text-align: center;
+    color: #2080BF;
+  }
+
+  [data-font="12"]{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #585858;
+  }
+
+  [data-font="20"]{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    color: #000;
+  }
+
+  [data-pt-remove="5"]{
+    margin-top: -5px !important;
+  }

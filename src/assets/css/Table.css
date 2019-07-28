@@ -1,0 +1,38 @@
+table th:first-child {
+    border-top-left-radius: 30px;
+  }
+
+table th:last-child {
+    border-top-right-radius: 30px;
+  }
+
+.table th {
+    border-top: none;
+    background: #f1f1f1;
+    text-align: center;
+    color: #585858;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150.4%;
+  }
+
+.table td {
+    text-align: center;
+  }
+
+.table-shadow {
+    box-shadow: 0px 4px 4px rgba(87, 84, 84, 0.35) !important;
+    border-radius: 30px !important;
+  }
+
+.header {
+    border-top-left-radius: 50%;
+  }
+
+.table-secondary-light{background-color: #f1f1f1;}
+
+.remove-table-margin-bottom > .table{
+  margin-bottom: 0px !important;
+}
